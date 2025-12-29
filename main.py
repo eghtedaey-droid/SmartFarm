@@ -3,7 +3,7 @@ import google.generativeai as genai
 from PIL import Image
 
 # تنظیمات کلید هوش مصنوعی
-genai.configure(api_key="کلید_خود_را_اینجا_بگذارید")
+genai.configure(api_key="AIzaSyBcfr6MPmmwOESL031nb5D_97k6XRc_Kns")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 st.title("دستیار هوشمند کشاورز 🌿")
